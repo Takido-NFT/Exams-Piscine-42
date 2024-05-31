@@ -1,0 +1,21 @@
+- Récupérer les arguments.
+    - Vérifier qu'ils sont tous de la même longueur.
+    - Convertion des caractères non reconnus en '.'.
+    - Il n'y a qu'un seul King.
+
+- Générer le plateau.
+    - Rejoindre les chaînes de caractères passées en arguments en une seule.
+
+- Calculer les cases de déplacement possible pour les pièces.
+
+Ressources:
+    Caractères reconnus: "{'.', 'P', 'B', 'R', 'Q', 'K'}".
+
+Fichiers:
+    main.c
+    check_args.c
+    board.c
+    enemies.c
+    ft_putstr.c
+
+    chessmate.h
